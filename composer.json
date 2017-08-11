@@ -4,6 +4,7 @@
     "name": "olyaklim/composer_get_date",
     "minimum-stability": "stable",
     "type": "library",
+	"version":"1.0.0",
     "description": "get_date",
     "keywords": ["math", "currency","change"],
     "homepage": "https://github.com/olyaklim",
@@ -23,6 +24,6 @@
         "php": ">=5.6"
     },
     "autoload": {
-        "psr-4": {"MyNamespace\\": "src/"}
+        "psr-0": {"MyNamespace": ""}
     }
 }
