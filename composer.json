@@ -1,0 +1,28 @@
+
+
+{
+    "name": "olyaklim/composer_get_date",
+    "minimum-stability": "stable",
+    "type": "library",
+    "description": "get_date",
+    "keywords": ["math", "currency","change"],
+    "homepage": "https://github.com/olyaklim",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olga Shevchenko",
+            "email": "olga.app2@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/olyaklim/composer_get_date/issues",
+        "source": "https://github.com/olyaklim/"
+    },
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {"MyNamespace\\": "src/"}
+    }
+}
